@@ -1,0 +1,139 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--  <link rel="stylesheet" href="css/bootstrap.css">-->
+  <link rel="stylesheet" href="css/uikit.css">
+  <link rel="stylesheet" href="css/bulma.css">
+
+  <!--  <meta name="theme-color" content="#fafafa">-->
+</head>
+<body>
+
+<div id="main menu" class="block">
+  <nav class="navbar" role="navigation" aria-label="Главное меню">
+    <div role="button" class="navbar-burger" aria-label="Меню" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">Главная страница</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Сервисы</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">Городская сводка</a>
+            <a class="navbar-item">Консультация врача</a>
+            <a class="navbar-item">Загруженность улиц</a>
+            <a class="navbar-item">Найти парковочное место</a>
+            <a class="navbar-item">Карта общественного Wi-Fi</a>
+          </div>
+        </div>
+      </div>
+      <a class="navbar-end">
+        Помощь
+      </a>
+    </div>
+  </nav>
+</div>
+
+<div class="tile is-ancestor is-pulled-right">
+  <div class="container has-text-centered">
+    <div class="login">
+      <form>
+        <div class="field">
+          <div class="control">
+            <input class="input is-medium is-rounded" type="email" placeholder="hello@example.com"
+                   autocomplete="username"
+                   required="">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <input class="input is-medium is-rounded" type="password" placeholder="**********"
+                   autocomplete="current-password" required="">
+          </div>
+        </div>
+        <br>
+        <button class="button is-block is-fullwidth is-primary is-medium is-rounded" type="submit">
+          Login
+        </button>
+      </form>
+      <br>
+      <nav class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="#">Forgot Password?</a>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="#">Create an Account</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div id="pagination" class="pagination">
+  <nav class="pagination is-centered" role="navigation" aria-label="Навигация">
+    <a class="pagination-previous">Предыдущая</a>
+    <a class="pagination-next">Следующая</a>
+    <ul class="pagination-list">
+      <li><a class="pagination-link" aria-label="Перейти к первой странице">1</a></li>
+      <li><span class="pagination-ellipsis">&hellip;</span></li>
+      <li><a class="pagination-link" aria-label="Перейти к странице  ">Левее середины</a></li>
+      <li><a class="pagination-link" aria-label="Перейти к середине  ">Середина</a></li>
+      <li><a class="pagination-link" aria-label="Перейти к странице  ">Правее середины</a></li>
+      <li><span class="pagination-ellipsis">&hellip;</span></li>
+      <li><a class="pagination-link" aria-label="Перейти к последней странице">Последняя</a></li>
+    </ul>
+  </nav>
+</div>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Digital Izhevsk</strong> by <a href="https://jgthms.com">FEV</a>. The source code is licensed
+      <a href="https://opensource.org/licenses/mit-license.php">MIT</a>
+    </p>
+  </div>
+</footer>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
